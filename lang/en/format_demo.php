@@ -36,3 +36,4 @@ $string['readmore'] = '[Read more]';
 $string['viewfullpost'] = 'View full post...';
 $string['viewolderpost'] = 'View older posts...';
 $string['containsattachments'] = 'This post contains attachments';
+$string['currentsection'] = 'Current section';

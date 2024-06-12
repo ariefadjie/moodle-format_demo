@@ -15,20 +15,15 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * @package    format_demo
- * @copyright  2022 Your name <youremail>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
-
-defined('MOODLE_INTERNAL') || die();
-require_once($CFG->dirroot. '/course/format/topics/lib.php');
-
-/**
- * Main class for the Topics course format
+ * Basic renderer for topics format.
  *
  * @package    format_demo
- * @copyright  2012 Marina Glancy
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @copyright  2022 Your name <youremail>
+ * @license http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class format_demo extends format_topics {
+
+namespace format_demo\output;
+
+class renderer extends \format_topics\output\renderer {
+
 }
